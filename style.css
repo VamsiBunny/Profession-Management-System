@@ -1,0 +1,54 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 50px;
+}
+form {
+  padding-bottom: 30px;
+  display: flex;
+  gap: 100px;
+}
+.Emp-data {
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+.btn {
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+#text {
+  font-size: 17px;
+  margin-top: 20px;
+  color: #ccc;
+  opacity: 0.7;
+  margin: 20px 0px;
+}
+#employee-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 10px 0px;
+  width: 600px;
+}
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
